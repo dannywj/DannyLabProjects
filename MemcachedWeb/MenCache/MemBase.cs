@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Configuration;
 using Memcached.ClientLibrary;
+using System.Configuration;
 
 namespace Auto.Utility
 {
@@ -14,9 +15,9 @@ namespace Auto.Utility
         private static SockIOPool sockPool;
         private static MemcachedClient memClient;
 
-        private static readonly string[] serverList; //= Function.Utils.GetConfigParam("MemClient",string.Empty).Split(',');
-        private static readonly string poolName; //= Function.Utils.GetConfigParam("PoolName", "Auto");
-        private static readonly string memLock; //= Function.Utils.GetConfigParam("MemLock", "0");
+        private static readonly string[] serverList = ConfigurationManager.AppSettings["MemClient"].Split(','); //= Function.Utils.GetConfigParam("MemClient",string.Empty).Split(',');
+        private static readonly string poolName = ConfigurationManager.AppSettings["PoolName"]; //= Function.Utils.GetConfigParam("PoolName", "Auto");
+        private static readonly string memLock = ConfigurationManager.AppSettings["MemLock"]; //= Function.Utils.GetConfigParam("MemLock", "0");
         #endregion
 
         #region ·µ»ØMemCache¶ÔÏó
@@ -55,7 +56,7 @@ namespace Auto.Utility
                 sockPool = SockIOPool.GetInstance(poolName);
                 sockPool.SetServers(serverList);
 
-                sockPool.InitConnections = 3;
+                sockPool.InitConnections = 2;
                 sockPool.MinConnections = 10;
                 sockPool.MaxConnections = 10000;
 

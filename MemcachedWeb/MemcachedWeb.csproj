@@ -39,6 +39,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ChnCharInfo">
+      <HintPath>C:\Users\rayootech\Desktop\ChnCharInfo.dll</HintPath>
+    </Reference>
     <Reference Include="Commons">
       <HintPath>DLL\Commons.dll</HintPath>
     </Reference>

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using MemcachedWeb.Models;
+using Microsoft.International.Converters.PinYinConverter;
 
 namespace MemcachedWeb.Controllers
 {
@@ -13,6 +14,13 @@ namespace MemcachedWeb.Controllers
         {
             //ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
             //return View();
+        
+
+            Auto.Utility.MemBase.Add("test", "test Danny");
+
+            return null;
+
+
             string name = "danny";
             var cacheData = MemcachedWeb.Models.MemcachedHelper.GetCache("name");
             if (cacheData == null)
