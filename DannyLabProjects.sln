@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemcachedWeb", "MemcachedWe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{CCD9E1F7-12DB-4EB2-91FE-534D4C49EBBB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web_Html5PhotoCollection", "Web_Html5PhotoCollection\Web_Html5PhotoCollection.csproj", "{42B44A09-0B54-48C7-9336-5C4B9532D206}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CCD9E1F7-12DB-4EB2-91FE-534D4C49EBBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCD9E1F7-12DB-4EB2-91FE-534D4C49EBBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCD9E1F7-12DB-4EB2-91FE-534D4C49EBBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B44A09-0B54-48C7-9336-5C4B9532D206}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B44A09-0B54-48C7-9336-5C4B9532D206}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B44A09-0B54-48C7-9336-5C4B9532D206}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B44A09-0B54-48C7-9336-5C4B9532D206}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

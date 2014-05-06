@@ -1,6 +1,0 @@
-F:\code\Git\DannyLabProjects\TestConsole\bin\Debug\TestConsole.exe
-F:\code\Git\DannyLabProjects\TestConsole\bin\Debug\TestConsole.pdb
-F:\code\Git\DannyLabProjects\TestConsole\bin\Debug\ChnCharInfo.dll
-F:\code\Git\DannyLabProjects\TestConsole\obj\Debug\TestConsole.csprojResolveAssemblyReference.cache
-F:\code\Git\DannyLabProjects\TestConsole\obj\Debug\TestConsole.exe
-F:\code\Git\DannyLabProjects\TestConsole\obj\Debug\TestConsole.pdb
